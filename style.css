@@ -146,7 +146,7 @@ button {
   width: 226px;
 }
 
-.btn-delete:hover {
+.btn__delete:hover {
   color: #cf2323;
 }
 
