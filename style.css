@@ -13,17 +13,17 @@
   text-align: right;
 }
 
-.header-img {
+.header__img {
   width: 100%;
 }
 
-.more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .header-img { text-align: center;
+  .header__img { text-align: center;
   }
 
 }
@@ -70,7 +70,7 @@ button {
 
 /* Heading */
 .h3,
-.new-task-label {
+.add__task__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -80,13 +80,13 @@ button {
   text-transform: uppercase;
 }
 
-.task-row-wrapper {
+.add__task-row-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.input-text {
+.add__task-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -99,21 +99,21 @@ button {
   color: #888;
 }
 
-.input-text:focus {
+.add__task-text:focus {
   color: #333;
 }
 
 /* New Task */
-.new-task-label {
+.add__task__label {
   display: block;
   margin: 0 0 20px;
 }
 
-.new-task {
+.add__task-new {
   width: 318px;
 }
 
-.btn-add:hover {
+.btn__add:hover {
   color: #0fc57c;
 }
 
@@ -131,51 +131,51 @@ button {
   vertical-align: middle;
 }
 
-.list-item > .input-checkbox {
+.list-item > .input__checkbox {
   margin: 0 10px;
 }
 
-.label-task {
+.label__task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list-item > .input-text {
+.list-item > .add__task-text {
   width: 226px;
 }
 
-.delete:hover {
+.btn-delete:hover {
   color: #cf2323;
 }
 
-.delete-img {
+.delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-img:hover {
+.delete__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#completed-tasks .label-task {
+.completed__tasks-list .label__task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.list-item .input-text {
+.list-item .add__task-text {
   display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode .add__task-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .label-task {
+.edit-mode .label__task {
   display: none;
 }
