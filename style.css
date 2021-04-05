@@ -19,8 +19,10 @@
 }
 
 @media (max-width:768px) {
+
   .header-img { text-align: center;
-  } 
+  }
+  
 }
 .main {
   display: block;
